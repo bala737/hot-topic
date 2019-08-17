@@ -1,0 +1,377 @@
+
+body {
+    background-color: #012B55;
+    font-family: verdana;
+    color: #fff;
+    line-height: 1.5rem;
+    font-size: 0.75rem;
+}
+
+header {
+    
+}
+.logo{
+   
+}
+.logo img {
+    max-width: 100px;
+    margin-left: 20px;
+}
+.navbar{
+    padding: 20px;
+    width: 50%;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.navbar ul{
+    max-width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar ul li a:link,
+.navbar ul li a:hover,
+.navbar ul li a:visited {
+    
+}
+.navbar ul li{
+    margin:px;
+}
+
+.navbar ul li a {
+    font-size: 1.5rem;
+    color: black;
+    
+}
+
+.masthead{
+    background-image: url(../img/masthead.jpg);
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.masthead h1 {
+    font-size: 2.25rem;
+    font-family: 'Gabriela', serif;
+    color: white;
+    position: absolute;
+    top: 50%;
+    right:10%;
+}
+
+
+h2 {
+    font-size: 1.75rem;
+    font-family: 'Gabriela', serif;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 0;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.75rem;
+}
+.data {
+    margin-top: %;
+    background-image: url("../img/bg-money.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+    width: 100%;
+    margin: 0px;
+}
+
+.data p {
+    width: 100%;
+    font-family: 'Imprima', sans-serif;
+    text-align: left;
+    font-size: 1.25rem;
+    margin-top: 5%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.placeholder {
+    font-size: 1.25rem;
+    margin-top: 2%;
+}
+
+.data .fig {
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.wrapper .portfolio {
+    text-align: center;
+}
+
+.data .fig img {
+    width: 100%;
+}
+
+.fig figcaption {
+    font-size: 1.25rem;
+}
+
+figcaption h2 {
+    font-size: 1.25rem;
+    font-family: 'Gabriela', serif;
+}
+
+figure {
+    margin: 0;
+    margin-top: 4rem;
+}
+
+
+
+.err {
+    display: block;
+    font-size: 1.25rem;
+    font-family: 'Imprima', sans-serif;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+footer {
+    background-color: #444;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 3%;
+    font-size: 1.5rem;
+}
+
+footer a {
+    margin-right: 2%;
+    color: #000000;
+}
+
+footer a:link,
+footer a:hover,
+footer a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+footer a i {
+    margin-top: 1%;
+    color: fff
+}
+
+footer .padding {
+    margin-bottom: 3%;
+}
+
+footer .sizef {
+    font-size: 3rem;
+}
+
+.row {
+    padding-bottom: 4%;
+}
+
+footer p {
+    margin: 0;
+}
+.card-img-top{
+    max-width: 40%;
+}
+.portfolio{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+@media screen and (min-width: 36rem) {
+    body {
+        line-height: 1.6rem;
+        font-size: 1rem;
+    }
+
+
+    
+
+    
+  
+
+    .navbar ul li a {
+        font-size: 1.7rem;
+    }
+
+    
+
+    .container {
+        padding: 2%;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    figcaption {
+        text-align: left;
+    }
+
+    .placeholder {
+        margin-top: 3%;
+    }
+
+    .data figure {
+        float: left;
+        ;
+        margin-right: 4%;
+        margin-bottom: 2%;
+        margin-top: 0;
+    }
+
+    .data p {
+        width: auto;
+        float: none;
+        font-size: 1.5rem;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    
+    
+
+    .err {
+        font-size: 1.5rem;
+    }
+
+    footer {
+        font-size: 2rem;
+    }
+
+    footer .sizef {
+        font-size: 4rem;
+    }
+
+    @media screen and (min-width: 80rem) {
+        body {
+            line-height: 1.5rem;
+            font-size: 1.25rem;
+            max-width: 120rem;
+            margin: auto;
+        }
+
+        .logo img {
+            width: 30%;
+            float: left;
+            margin-right: 0%;
+        }
+
+        .navbar {
+            width: 40%;
+            float: left;
+            margin-top: 6%;
+            margin-left: 0;
+            padding-left: 0;
+        }
+
+        .navbar ul li {
+            display: inline-block;
+            width: 49.5%;
+        }
+
+        .marginr {
+            margin-right: 1.5%;
+        }
+
+        .marginl {
+            margin-left: 1.5%;
+        }
+
+        .navbar ul li a {
+            font-size: 2.5rem;
+        }
+
+        .masthead h1 {
+            font-size: 3.75rem;
+            color: #000000;
+            padding-left: 40%;
+            margin-bottom: 37%;
+            margin-top: -40%;
+        }
+
+        .container {
+            padding: 0;
+        }
+
+        .data {
+            display: flex;
+            flex-flow: row|| wrap;
+            margin: 0;
+            width: 100%;
+        }
+
+        h2 {
+            width: 100%;
+            font-size: 3.25rem;
+            text-align: left;
+        }
+
+        h3 {
+            text-align: left;
+            font-size: 3.25rem;
+            padding-left: 1%;
+        }
+
+        .data .fig {
+            width: 40%;
+            margin-right: 0;
+            text-align: left;
+            margin-top: 3%;
+        }
+
+        .data .fig img {
+            width: auto;
+            margin-top: 3%;
+            height: auto;
+        }
+
+        .data p {
+            width: 60%;
+            font-size: 1.6rem;
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 3%;
+
+        }
+
+        .err {
+            font-size: 1.6rem;
+        }
+
+        footer {
+            font-size: 2.5rem;
+            text-align: left;
+            padding-left: 4%;
+        }
+
+        footer p {
+            margin-top: 1%;
+        }
+
+        footer .sizef {
+            font-size: 5rem;
+        }
+
+    }
